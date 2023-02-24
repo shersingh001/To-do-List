@@ -1,0 +1,33 @@
+.toDoListForm_main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    text-align: left;
+    max-width: 100%;
+}
+
+
+.toDoListForm_control label {
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+    margin-top: 0.6rem;
+    display: block;
+}
+
+.toDoListForm_control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 23.3rem;
+    max-width: 100%;
+}
+
+.btn_action{
+    text-align: center;
+}
+
+.color{
+    color: red;
+}

@@ -1,0 +1,44 @@
+.titleBox{
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    margin: 0 1rem;
+    color: white;
+}
+
+.titleBox p{
+  color: yellow;
+}
+
+.innerDivBox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  background-color: #4b4b4b;
+  border-radius: 12px;
+  box-shadow: 0px 0px 1px 6px rgba(58, 55, 55, 0.192);
+}
+
+.innerDivBox_color{
+  border: 2px solid yellow;
+}
+
+.innerDivBox button{
+  padding: 0.6rem 1.3rem;
+}
+
+.moreFunction{
+  display: flex;
+}
+
+.moreFunction input{
+  margin-right: 2rem;
+  width: 2rem;
+  height: 1.8rem;
+}
+
+.checkInput h2{
+  text-decoration: line-through;
+  color: rgb(166, 169, 173);
+}

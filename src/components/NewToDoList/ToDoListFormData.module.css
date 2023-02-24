@@ -1,0 +1,22 @@
+.toDoList_Data {
+    background-color: #e7eef0;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.toDoList_Data button {
+    font: inherit;
+    padding: 0.8rem 1.4rem;
+    border: none;
+    background-color: #7e767e;
+    color: white;
+    border-radius: 12px;
+    transition: all 1s ease-in-out;
+}
+
+.toDoList_Data button:hover {
+    background-color: #231e25;
+}
